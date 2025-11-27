@@ -1,0 +1,32 @@
+ALGORITMO - SISTEMA PROJECT 4BOSS
+
+Algoritmo Project4Boss
+Início
+    Mostrar 'Página Inicial'
+    Mostrar 'Menu: Funcionário, Cliente, Marca, Modelo, Venda'
+
+    Enquanto usuário ativo faça
+        Ler opçãoMenu
+        Se opçãoMenu = 'Cadastrar' então
+            Mostrar formulário
+            Ler dados
+            Se dados válidos então
+                Inserir dados no banco
+                Mostrar 'Cadastro realizado'
+            Senão
+                Mostrar 'Erro nos dados'
+        FimSe
+
+        Se opçãoMenu = 'Listar' então
+            Mostrar lista de registros
+            Para cada registro faça
+                Mostrar botões Editar e Excluir
+                Se Editar então
+                    Ler alterações
+                    Atualizar banco
+                Se Excluir então
+                    Remover registro
+            FimPara
+        FimSe
+    FimEnquanto
+FimAlgoritmo
