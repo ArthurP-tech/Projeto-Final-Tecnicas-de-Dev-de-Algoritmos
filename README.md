@@ -99,7 +99,8 @@ Projeto desenvolvido como parte da avaliação acadêmica.
 
 Aqui estão o Fluxograma, Algoritmo e Pseudocódigo
 
-Algoritmo Project4Boss
+**Algoritmo - 4Boss***
+
 Início
     Mostrar 'Página Inicial'
     Mostrar 'Menu: Funcionário, Cliente, Marca, Modelo, Venda'
@@ -128,12 +129,12 @@ Início
         FimSe
     FimEnquanto
 FimAlgoritmo
-ng algoritmo.txt…]()
+
+**Fluxograma - 4Boss***
 
 <img width="872" height="1642" alt="fluxograma" src="https://github.com/user-attachments/assets/05d9cbff-5bf8-44e8-8d5a-c22e2e629664" />
 
-[pseudocodigo.txt](https://github.com/user-attachments/files/23811372/pseudocodigo.txt)
-PSEUDOCÓDIGO - CRUD GENÉRICO
+**PSEUDOCÓDIGO - 4Boss***
 
 INÍCIO
     EXIBIR página inicial
