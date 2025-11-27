@@ -103,7 +103,6 @@ Algoritmo Project4Boss
 Início
     Mostrar 'Página Inicial'
     Mostrar 'Menu: Funcionário, Cliente, Marca, Modelo, Venda'
-
     Enquanto usuário ativo faça
         Ler opçãoMenu
         Se opçãoMenu = 'Cadastrar' então
