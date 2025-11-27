@@ -99,7 +99,9 @@ Projeto desenvolvido como parte da avaliação acadêmica.
 
 Aqui estão o Fluxograma, Algoritmo e Pseudocódigo
 
+
 **Algoritmo - 4Boss***
+
 
 Início
     Mostrar 'Página Inicial'
@@ -134,7 +136,11 @@ FimAlgoritmo
 
 <img width="872" height="1642" alt="fluxograma" src="https://github.com/user-attachments/assets/05d9cbff-5bf8-44e8-8d5a-c22e2e629664" />
 
+
+
 **PSEUDOCÓDIGO - 4Boss***
+
+
 
 INÍCIO
     EXIBIR página inicial
