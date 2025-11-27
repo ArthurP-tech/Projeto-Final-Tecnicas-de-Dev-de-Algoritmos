@@ -1,4 +1,4 @@
-# Projeto-Final-Concessionaria-Tecnicas-de-Dev-de-Algoritmos
+[algoritmo.txt](https://github.com/user-attachments/files/23811371/algoritmo.txt)# Projeto-Final-Concessionaria-Tecnicas-de-Dev-de-Algoritmos
 
 # Project 4Boss
 
@@ -96,3 +96,77 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 **Arthur Pereira**\
 Estudante de Análise e Desenvolvimento de Sistemas\
 Projeto desenvolvido como parte da avaliação acadêmica.
+
+Aqui estão o Fluxograma, Algoritmo e Pseudocódigo
+
+Algoritmo Project4Boss
+Início
+    Mostrar 'Página Inicial'
+    Mostrar 'Menu: Funcionário, Cliente, Marca, Modelo, Venda'
+
+    Enquanto usuário ativo faça
+        Ler opçãoMenu
+        Se opçãoMenu = 'Cadastrar' então
+            Mostrar formulário
+            Ler dados
+            Se dados válidos então
+                Inserir dados no banco
+                Mostrar 'Cadastro realizado'
+            Senão
+                Mostrar 'Erro nos dados'
+        FimSe
+
+        Se opçãoMenu = 'Listar' então
+            Mostrar lista de registros
+            Para cada registro faça
+                Mostrar botões Editar e Excluir
+                Se Editar então
+                    Ler alterações
+                    Atualizar banco
+                Se Excluir então
+                    Remover registro
+            FimPara
+        FimSe
+    FimEnquanto
+FimAlgoritmo
+ng algoritmo.txt…]()
+
+<img width="872" height="1642" alt="fluxograma" src="https://github.com/user-attachments/assets/05d9cbff-5bf8-44e8-8d5a-c22e2e629664" />
+
+[pseudocodigo.txt](https://github.com/user-attachments/files/23811372/pseudocodigo.txt)
+PSEUDOCÓDIGO - CRUD GENÉRICO
+
+INÍCIO
+    EXIBIR página inicial
+    EXIBIR menu com opções: Funcionário, Cliente, Marca, Modelo, Venda
+
+    ENQUANTO usuário não sair DO sistema FAÇA
+        SE usuário clicar em uma opção DO menu ENTÃO
+            EXIBIR submenu: [Cadastrar] [Listar]
+
+            SE usuário escolher Cadastrar ENTÃO
+                EXIBIR formulário
+                LER dados do formulário
+                VALIDAR dados
+                SE dados válidos ENTÃO
+                    SALVAR no banco de dados
+                    REDIRECIONAR para Listar
+                SENÃO
+                    EXIBIR mensagem de erro
+
+            SENÃO SE usuário escolher Listar ENTÃO
+                EXIBIR registros da tabela
+                PARA cada registro EXIBIR botões [Editar] [Excluir]
+
+                SE usuário clicar em Editar ENTÃO
+                    EXIBIR formulário com dados
+                    LER alterações
+                    VALIDAR alterações
+                    SALVAR alterações no banco
+
+                SE usuário clicar em Excluir ENTÃO
+                    REMOVER registro do banco
+
+        FIM SE
+    FIM ENQUANTO
+FIM
