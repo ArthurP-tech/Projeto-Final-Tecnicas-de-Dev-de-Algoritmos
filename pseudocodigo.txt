@@ -1,0 +1,36 @@
+PSEUDOCÓDIGO - CRUD GENÉRICO
+
+INÍCIO
+    EXIBIR página inicial
+    EXIBIR menu com opções: Funcionário, Cliente, Marca, Modelo, Venda
+
+    ENQUANTO usuário não sair DO sistema FAÇA
+        SE usuário clicar em uma opção DO menu ENTÃO
+            EXIBIR submenu: [Cadastrar] [Listar]
+
+            SE usuário escolher Cadastrar ENTÃO
+                EXIBIR formulário
+                LER dados do formulário
+                VALIDAR dados
+                SE dados válidos ENTÃO
+                    SALVAR no banco de dados
+                    REDIRECIONAR para Listar
+                SENÃO
+                    EXIBIR mensagem de erro
+
+            SENÃO SE usuário escolher Listar ENTÃO
+                EXIBIR registros da tabela
+                PARA cada registro EXIBIR botões [Editar] [Excluir]
+
+                SE usuário clicar em Editar ENTÃO
+                    EXIBIR formulário com dados
+                    LER alterações
+                    VALIDAR alterações
+                    SALVAR alterações no banco
+
+                SE usuário clicar em Excluir ENTÃO
+                    REMOVER registro do banco
+
+        FIM SE
+    FIM ENQUANTO
+FIM
